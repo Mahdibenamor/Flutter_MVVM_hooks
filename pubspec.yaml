@@ -1,0 +1,47 @@
+name: flutter_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.14.0
+  reflectable: any
+  build_runner: any
+  built_value_generator: any
+  _fe_analyzer_shared: ^19.0.0
+  convex_bottom_bar: ^2.7.0
+  cupertino_icons: ^1.0.1
+  provider: ^4.3.2+3
+  shared_preferences: ^0.5.12
+  get_it: ^1.0.2
+  rxdart: ^0.20.0
+  rx_command: ^4.1.0
+  rx_widgets: ^2.2.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true

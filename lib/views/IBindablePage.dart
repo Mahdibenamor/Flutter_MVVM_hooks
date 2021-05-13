@@ -1,0 +1,5 @@
+mixin IBindablePage{
+
+dynamic BindingContext;
+
+}
