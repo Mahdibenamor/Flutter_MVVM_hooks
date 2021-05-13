@@ -1,4 +1,4 @@
-# flutter_app
+# Flutter MVVM Pattern using Hooks
 
 A new Flutter application.
 
